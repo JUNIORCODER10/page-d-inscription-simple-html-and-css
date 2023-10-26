@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire Inscription </title>
+</head>
+<body>
+    <div class="alignement">
+    <div>
+    <h2>Inscrivez-vous</h2>
+    <p>vous avez deja un compte ? <a href="#"> connectez vous </a></p>
+    </div>
+    <form method="post" >
+
+    <label for="nomUtilisateur">Nom d'Utilisateur</label>
+    <input type="text" id="nomUtilisateur" name="nomUtilisateur" autofocus="autofocus"  required="creez votre nom d'utilisateur"><br>
+
+    <label for="password">Mot de Passe</label>
+    <input type="password" id="password" name="password" placeholder="creez votre mot de passe" required="required"><br>
+
+    <label for="password">Confirmez Votre Mot de Passe</label>
+    <input type="password" id="password" name="password" required="required"><br>
+
+    <label for="mail">adresse e-mail</label>
+    <input type="email" id="mail" name="mail" required="required" placeholder="saisissez votre adresse e-mail"><br>
+
+    <input type="submit" id="button" value="S'inscrire">
+    </form>
+    <fieldset>
+        <legend> ou </legend>
+        <table>
+            <tr>
+                <td><button class="network-button"> 
+                    <img class="network-icon" src="google.jpg" alt="Google Icon"> S'inscrire Avec Google
+                </button>     </td>
+            </tr>
+            <tr>
+                <td><button class="network-button">
+                    <img class="network-icon" src="facebook.png" alt="Facebook Icon"> S'inscrire avec Facebook
+                </button>   </td>
+            </tr>
+            <tr>
+                <td><button class="network-button">
+                    <img class="network-icon" src="github.png" alt="Github Icon"> Sinscrire avec Github
+                </button>   </td>
+            </tr>
+        </table>
+    </fieldset>
+</div>
+    
+</body>
+</html>

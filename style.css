@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(214, 212, 209);
+}
+.alignement{
+    
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 87vh;
+    padding: 1%;
+   
+    margin-left: 15%;
+}
+h2{
+   text-align: left;
+   margin:0;
+   padding: 0;
+}
+p{
+    font-size: 12px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+body input{
+    border:none;
+    border-radius:5px;
+    width:90%;
+    height:30px;
+    margin:10px ;
+    background-color: rgb(214, 212, 209);
+    
+}
+body label{
+    font-size: 14px ;
+    padding:10px 10px;
+}
+#button{
+    width:20%;
+    margin-left: 70%;
+    background-color: rgb(84, 163, 228);
+}
+fieldset legend{
+    text-align: center;
+    border:none
+}
+#reseau{
+    margin-left:20%;
+   
+}
+.network-button {
+   
+    border: none;
+    width  : 300px;
+    margin-left: 40%;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.network-icon {
+    width: 20px; 
+   height: 15px;
+    margin-right: 10px; 
+   
+}
